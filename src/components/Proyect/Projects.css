@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    margin-bottom:10rem;
 }
 .container-desc {
     border: 1px solid #fff;
@@ -21,9 +22,14 @@
 }
 .image-projects {
     width: 350px;
-    height: 200px;
+    height: 190px;
     margin-bottom: 10px;
     
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 .buttons {
     display: flex;
@@ -37,27 +43,100 @@
     border: 1px solid #fff;
     padding: 5px 30px;
 }
+.title-main{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+    font-size: 35px;
+}
 
+@media screen and (max-width: 1440px) {
+    .title-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
+        font-size:30px;
+        font-weight: 300;
+    }
+    .container-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    .title-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
+        font-size:30px;
+        font-weight: 300;
+    }
     .container-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        height: 100vh;
     }
 }
 
 @media screen and (max-width: 980px) {
+    .title-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
+        font-size:30px;
+        font-weight: 300;
+    }
     .container-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        height: 100vh;
     }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 540px) {
+    .title-main{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
+        font-size:30px;
+        font-weight: 300;
+    }
     .container-grid {
-        display: grid;
+        height: 100vh;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+        
+    }
+}
+@media screen and (max-width: 468px) {
+    .title-main{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
+        font-size:30px;
+        font-weight: 300;
+    }
+    .container-grid {
+        height: 100vh;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        
     }
 }

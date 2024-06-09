@@ -4,8 +4,12 @@ import { projectsItems } from '../data'
 import './Projects.css'
 const Projects = () => {
   return (
+    <>
+    <div className="title-main">Algunos de mis&nbsp;<span style={{color:'orange', fontWeight:'bold'}}>proyectos</span></div>
     <div className='container-projects'>
+      
       <div className="container-grid">
+        
         {projectsItems.map((item) => (
           <div key={item.id} >
             <div className='container-desc'>
@@ -24,6 +28,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </>
   )
 }
 
