@@ -1,0 +1,35 @@
+.container-nav {
+    color: #ffffff;
+    position: fixed;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+    z-index: 77;
+    height: max-content;
+    top: 20px;
+}
+
+.icons-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.icons-map {
+   padding: 0rem .8rem;
+    transition: .1s;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.icons-map:hover {
+    background-color: orange;
+    
+}
