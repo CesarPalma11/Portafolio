@@ -92,8 +92,8 @@ const Hero = () => {
                     <h1>FrontEnd <span style={{color:'orange'}}>Developer</span></h1>
                     <p>Voluptas modi laborum eos nemo repellat nobis dicta obcaecati, aut cupiditate eveniet odit placeat nihil provident sit. Sunt magnam quibusdam id sapiente!</p>
                     <div className='btns-hero'>
-                        <Link to='/contact' className='btn-hero'>Contactame!</Link>
-                        <Link to='/' className='btn-hero'>Descargar&nbsp;<span>CV</span></Link>
+                        <Link to='/contact' className='btn-hero' style={{fontWeight:'bold'}}>Contactame!</Link>
+                        <Link to='/' className='btn-hero' style={{color:'orange', fontWeight:'bold'}}>Descargar&nbsp;<span>CV</span></Link>
                     </div>
                     <div className="social-links">
                         {socialLinks.map((link) => (

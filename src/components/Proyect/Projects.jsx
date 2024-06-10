@@ -16,9 +16,9 @@ const Projects = () => {
               <div className="title">{item.title}</div>
                 <img src={item.img} alt={item.id} className='image-projects'/>
                 <div className="desc">{item.desc}</div>
-                <div className="buttons">
-                <a href={item.urlGit}>GitHub</a>
-                <a href={item.urlDemo}>Demo</a>
+                <div className="buttons" style={{fontWeight:'500'}}>
+                <a href={item.urlGit} style={{border:'none'}}>GitHub</a>
+                <a href={item.urlDemo} style={{background:'orange', border: 'none'}}>Demo</a>
                 
                 </div>
                 

@@ -1,3 +1,4 @@
+
 .hero-text {
     position: absolute;
     top: 50%;
@@ -5,7 +6,7 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    z-index: 10; /* Asegura que el texto esté por encima de las partículas */
+    z-index: 10; 
 }
 
 .hero-text h1 {
@@ -52,6 +53,7 @@
 .social-links a:hover {
     color: orange; 
 }
+
 @media screen and (max-width: 468px) {
     .social-links {
         display: flex;
