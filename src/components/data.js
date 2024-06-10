@@ -1,37 +1,16 @@
-import { FaYoutube } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiUser } from "react-icons/ci";
-import { FaBook } from "react-icons/fa";
-import { SlSpeech } from "react-icons/sl";
+import { FaBook } from "react-icons/fa"
 import { FaCode } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import img1 from '../components/images/project1.png'
 import img2 from '../components/images/project3.png'
-export const socialNetworks = [
-    {
-        id: 1,
-        logo: <FaYoutube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 2,
-        logo: <FaLinkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <FaTwitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <FaInstagram size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-];
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 
 
 export const itemsNavbar = [
@@ -143,3 +122,31 @@ export const projectsItems = [
     
 
 ]
+
+export const socialLinks = [
+    {
+        id: 1,
+        logo: <FaGithub   size={24} strokeWidth={1} />,
+        src: "#!",
+    },
+    {
+        id: 2,
+        logo: <FaLinkedin size={24} strokeWidth={1} />,
+        src: "#!",
+    },
+    {
+        id: 3,
+        logo: <SiGmail size={24} strokeWidth={1} />,
+        src: "#!",
+    },
+    {
+        id: 4,
+        logo: <FaTwitter size={24} strokeWidth={1} />,
+        src: "#!",
+    },
+    {
+        id: 5,
+        logo: <FaInstagram size={24} strokeWidth={1} />,
+        src: "#!",
+    },
+];

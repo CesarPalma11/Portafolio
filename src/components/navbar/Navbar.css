@@ -19,7 +19,7 @@
     gap: 20px;
     padding: 10px 20px;
     border-radius: 9999px;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
 }
 
@@ -32,4 +32,21 @@
 .icons-map:hover {
     background-color: orange;
     
+}
+
+
+@media screen and (max-width: 468px) {
+    .container-nav {
+        color: #ffffff;
+        position: fixed;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: auto;
+        z-index: 77;
+        height: max-content;
+        top:30px;
+    }
 }
