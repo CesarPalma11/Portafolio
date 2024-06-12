@@ -64,7 +64,7 @@ const Contact = () => {
             required
           />
         </div>
-        <button type="submit" style={{background:'orange', fontWeight:'bold'}}>Enviar</button>
+        <button type="submit" style={{background:'orange', fontWeight:'bold'}}>Hablemos!</button>
       </form>
     </div>
     </>

@@ -7,6 +7,7 @@ import About from './components/About/About';
 import { AnimatePresence } from 'framer-motion';
 import Contact from './components/Contact/Contact';
 import Projects from './components/Proyect/Projects';
+
 function App() {
   return (
     <Router>
@@ -14,12 +15,16 @@ function App() {
       <AnimatePresence mode='wait'>
       <Routes>
         <Route path="/" element={<Hero />} /> 
-        <Route path="/about-me" element={<About />} /> 
+        <Route path="/about-me" element={<About />}/> 
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/projects" element={<Projects />} /> 
+        
       </Routes>
+      
       </AnimatePresence>
+    
     </Router>
+    
   );
 }
 

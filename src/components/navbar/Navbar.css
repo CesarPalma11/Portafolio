@@ -34,7 +34,26 @@
     
 }
 
-
+.icons-map.active {
+    
+    background-color: orange;
+}
+.blinking {
+    animation: pulsate 1s ease infinite;
+    background-color: green;
+}
+@keyframes pulsate {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
 @media screen and (max-width: 468px) {
     .container-nav {
         color: #ffffff;
