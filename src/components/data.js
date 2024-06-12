@@ -93,26 +93,26 @@ export const socialLinks = [
     {
         id: 1,
         logo: <FaGithub   size={26} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/CesarPalma11",
     },
     {
         id: 2,
         logo: <FaLinkedin size={26} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/cesarpalma11/",
     },
     {
         id: 3,
         logo: <SiGmail size={26} strokeWidth={1} />,
-        src: "#!",
+        src: "mailto:cesarpalmag16@gmail.com",
     },
     {
         id: 4,
         logo: <FaTwitter size={26} strokeWidth={1} />,
-        src: "#!",
+        src: "",
     },
     {
         id: 5,
         logo: <FaInstagram size={26} strokeWidth={1} />,
-        src: "#!",
+        src: "",
     },
 ];

@@ -92,10 +92,11 @@ const Hero = () => {
                 <div className="hero-text">
                     <h1>Soy <span style={{color:'orange'}}>Cesar Palma</span></h1>
                     <h2>FrontEnd <span style={{ color: 'orange' }}>Developer</span></h2>
-                    <p style={{marginTop:'1rem'}}>Soy Front-End Developer con 2 años de experiencia en el desarrollo web utilizando React. Soy detallista y comprometido con mi trabajo. </p>
+                    <p style={{marginTop:'1rem'}}>Front-End Developer con 3 años de experiencia en el desarrollo web utilizando React. Soy detallista y comprometido con mi trabajo. </p>
                     <div className='btns-hero'>
                         <Link to='/contact' className='btn-hero left-btn'>Contactame!</Link>
-                        <a href='/Documents/frontend+cesar+palma.pdf' download className='btn-hero right-btn' without rel='noreferrer'>Descargar&nbsp;<span>CV</span></a>
+                        <a href='/documents/frontend%20cesar%20palma.pdf' download className='btn-hero right-btn' without rel='noreferrer'>Descargar&nbsp;<span>CV</span></a>
+
                     </div>
                     <div className="social-links">
                         {socialLinks.map((link) => (
