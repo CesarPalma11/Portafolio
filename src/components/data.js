@@ -11,7 +11,7 @@ import img2 from '../components/images/project3.png'
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import comming from '../components/images/comming.jpg'
-
+import img3 from '../components/images/project4.png'
 
 
 export const itemsNavbar = [
@@ -52,12 +52,12 @@ export const itemsNavbar = [
 export const projectsItems = [
     {
         id:1,
-        title: "Nike Store",
-        img: img1,
-        desc: "Proyecto replica de Nike Store",
-        link: "https://replynikestore.netlify.app",
-        urlGit: "https://github.com/CesarPalma11/Nike_Store/tree/master",
-        urlDemo: "https://replynikestore.netlify.app"
+        title: "Conversor de Monedas",
+        img: img3,
+        desc: "Proyecto de E-Commerce funcional",
+        link: "",
+        urlGit: "https://github.com/CesarPalma11/Convertidor-de-Monedas",
+        urlDemo: "https://main--cambiodemoneda.netlify.app/"
     },
     {
         id:2,
@@ -70,12 +70,12 @@ export const projectsItems = [
     },
     {
         id:3,
-        title: "En proceso...",
-        img: comming,
-        desc: "Proyecto de E-Commerce funcional",
-        link: "",
-        urlGit: "",
-        urlDemo: ""
+        title: "Nike Store",
+        img: img1,
+        desc: "Proyecto replica de Nike Store",
+        link: "https://replynikestore.netlify.app",
+        urlGit: "https://github.com/CesarPalma11/Nike_Store/tree/master",
+        urlDemo: "https://replynikestore.netlify.app"
     },
     {
         id:4,
