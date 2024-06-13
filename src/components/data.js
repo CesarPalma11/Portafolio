@@ -30,15 +30,17 @@ export const itemsNavbar = [
     {
         id: 3,
         title: "Proyects",
-        icon: <FaBook size={25} color="#fff" strokeWidth={1} />,
+        icon: <FaCode size={25} color="#fff" strokeWidth={1} />,
         link: "/projects",
     },
+    /* 
     {
         id: 4,
         title: "Target",
         icon: <FaCode size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
+    */
     {
         id: 5,
         title: "Contact",
