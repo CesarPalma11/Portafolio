@@ -95,7 +95,7 @@ const Hero = () => {
                     <p style={{marginTop:'1rem'}}>Front-End Developer con 3 años de experiencia en el desarrollo web utilizando React. Soy detallista y comprometido con mi trabajo. </p>
                     <div className='btns-hero'>
                         <Link to='/contact' className='btn-hero left-btn'>Contactame!</Link>
-                        <a href='/documents/Cesar Palma CV.pdf' download className='btn-hero right-btn' without rel='noreferrer'>Descargar&nbsp;<span>CV</span></a>
+                        <a href='/documents/CesarPalma CV.pdf' download className='btn-hero right-btn' without rel='noreferrer'>Descargar&nbsp;<span>CV</span></a>
 
                     </div>
                     <div className="social-links">
